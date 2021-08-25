@@ -1,8 +1,11 @@
+# 安装
+
+## 安装环境 :id=environment
 要运行BlueMap插件，您需要
 -  Java 8 或者更高版本
 -  Minecraft Java-Edition 
 
-### 作为Sponge插件
+## 作为Sponge插件 :id=Sponge
 如果您有海绵服务器，则可以将bluemap用作服务器插件。然后，插件会渲染以及在发生某些更改时主动更新您的地图。如果服务器关闭/重新启动，则渲染任务将暂停并恢复。
 - 首先，您要下载bluemap-jar。您可以从[此处](https://github.com/BlueMap-Minecraft/BlueMap/releases)或从[海绵插件存储库](https://ore.spongepowered.org/Blue/BlueMap)中选择并下载相应版本。确保它和服务器的SpongeAPI版本相同！
 - 将下载的jar放在服务器的mods文件夹中，然后重新启动服务器。
@@ -10,7 +13,7 @@
 - 编辑配置后，请使用`/bluemap reload`重新启动插件。
 - `/bluemap render <world>`命令以启动整个世界的初始渲染。
 
-### 作为Spigot/Paper插件
+## 作为Spigot/Paper插件 :id=Spigot-Paper
 如果您有Spigot或paper服务器，则可以将bluemap用作服务器插件。然后，插件会渲染以及在发生某些更改时主动更新您的地图。如果服务器关闭/重新启动，则渲染任务将暂停并恢复。
 - 首先，您要下载bluemap-jar。您可以从[此处](https://github.com/BlueMap-Minecraft/BlueMap/releases)选择并下载版本。确保它和服务器的SpigotAPI版本相同！
 - 将下载的jar放在服务器的plugins文件夹中，然后重新启动服务器。
@@ -18,9 +21,8 @@
 - 编辑配置后，请使用`/bluemap reload`重新启动插件。
 - `/bluemap render <world>`命令以启动整个世界的初始渲染。
 
-### 作为Forge/Fabric模组
+## 作为Forge/Fabric模组 :id=Forge-Fabric
 如果您有Forge服务器或Fabric服务器，则可以将bluemap用作服务器上的mod。然后，插件会渲染以及在发生某些更改时主动更新您的地图。如果服务器关闭/重新启动，则渲染任务将暂停并恢复。
-
 - 首先，您要下载bluemap-jar。您可以从[此处](https://github.com/BlueMap-Minecraft/BlueMap/releases)选择并下载版本。确保它和服务器的forge/fabric版本相同！
 - 如果您有fabric-server，则还需要安装fabricAPI mod。
 - 将下载的bluemap-jar放在服务器的mods文件夹中，然后重新启动服务器。
@@ -28,7 +30,7 @@
 - 编辑配置后，请使用`/bluemap reload`重新启动插件。
 - `/bluemap render <world>`命令以启动整个世界的初始渲染。
 
-### 作为原版独立程序
+## 作为原版独立程序 :id=CLI
 您可以使用CLI（命令行界面）将BlueMap作为独立的应用程序来渲染地图，如果您拥有原版我的世界服务器或者想渲染本地的地图但又不想设置服务器，这一程序将会很有用！
 - 首先，您要下载bluemap-jar。您可以从[此处](https://github.com/BlueMap-Minecraft/BlueMap/releases)选择并下载版本。确保它以CLI为目标并且与您要渲染的世界的Minecraft版本兼容。
 - 选择/创建一个要在文件夹作为运行程序并生成其配置和文件的目录，并将下载的jar保存在此文件夹中。
