@@ -7,7 +7,7 @@ BlueMap是一个可以将服务器地图渲染成3D网页的一个工具（TIS�
 3- [配置文件](https://github.com/Song-Xin233/BlueMap-Wiki/blob/main/config.md) 完成 3758字符  
 4- [指令&权限](https://github.com/Song-Xin233/BlueMap-Wiki/blob/main/command.md) 完成 1208字符  
 5- [加载资源包](https://github.com/Song-Xin233/BlueMap-Wiki/blob/main/resourcepacks.md) 完成 611字符  
-6- 模组物品 正在进行 20%  
+6- 模组物品 3081字符
 7- [附属资源](https://github.com/Song-Xin233/BlueMap-Wiki/blob/main/3rd%20suppord.md) 完成 706字符  
 8- [反向代理](https://github.com/Song-Xin233/BlueMap-Wiki/blob/main/nginx.md) 完成 598字符  
 9- [Web托管](https://github.com/Song-Xin233/BlueMap-Wiki/blob/main/external%20webservers.md) 完成 2333字符  
